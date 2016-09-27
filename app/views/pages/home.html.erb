@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yuk Ternak | Dari Kita, Oleh Kita, Untuk Kita</title>
+        <link rel='icon' type='image/ico' href='assets/img/yukternak.png' />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <%= stylesheet_link_tag "user.css" %>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand navbar-link" href="#" target="_top"> 
+                        <img src="assets/img/YT-Logo.jpg" width="150px">
+                    </a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active" role="presentation">
+                            <a href="#" target="_top">Home </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#tentang-kami">Tentang Kami</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#cara-kerja">Cara Kerja</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#contact-us">Kontak Kami</a>
+                        </li>
+                        <!--<li role="presentation">
+                            <a href="#">Daftar/Masuk </a>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-push-5 get-it">
+                        <h1>Jangan Takut Beternak</h1>
+                        <p>Bersama Yuk Ternak,Anda dapat memulai peternakan Anda sendiri sekaligus membawa dampak sosial bagi masyarakat</p>
+                        <p><a class="btn btn-success btn-lg" role="button" href="#tahukah-kamu">Mengapa harus beternak?</a></p>
+                        <script type="text/javascript">
+                            $('a[href^="#"]').on('click', function(event) {
+
+                                var target = $(this.getAttribute('href'));
+
+                                if( target.length ) {
+                                    event.preventDefault();
+                                    $('html, body').stop().animate({
+                                        scrollTop: target.offset().top
+                                    }, 1000);
+                                }
+
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section 1 Tahukah Anda-->
+        <div style="background-color: #f5f5f0" id="tahukah-kamu"> 
+            <!--style="background-color: #f5f5f0"-->
+            <section class="container vertical-center" style="padding:150px 0 200px 0;">
+                <div class="row vertical-center">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <img src="assets/img/yukternak.png" class="center-block fact_pict" style="width: 200px" />
+                    </div>
+                    <div class="col-md-5 vertical-center" style="align-items: center;display: flex;vertical-align: middle;">
+                        <p class="pull-left" style="color: #6a737b ; font-size: 16px;text-align: justify;vertical-align: middle;"> <span style="color: #ff751a;font-weight: 900;font-size: 30px;"> TAHUKAH ANDA ?</span><br><br>Setiap tahunnya, kebutuhan daging sapi Indonesia mencapai 646ribu Ton. Jumlah ini terus bertambah tiap tahunnya. Produksi domestik hanya dapat memenuhi 60% saja dari total kebutuhan. Lalu bagaimana dengan 40%nya?</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </section>
+        </div>
+        <div style="background-color: #ffffff">
+            <section class="container vertical-center" style="padding:150px 0 200px 0;">
+                <h2 class="segment_title text-center" style="color: #ff751a;margin-top: 20px"> MENGAPA BISA BEGITU ?</h2>
+                <div class="row" style="margin-top: 70px">
+                    <div class="col-md-4">
+                        <img src="assets/img/garu.jpg" class="center-block fact_pict" style="max-width: 100px" />
+                        <p id="mengapa">Sebagian besar peternak masih mengelola peternakan secara tradisional</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/img/uang.jpg" class="center-block fact_pict" style="max-width: 100px;">
+                        <p id="mengapa">Rendahnya produktivitas dan skala bisnis dikarenakan kurangnya permodalan untuk pengembangan usaha yang layak</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/img/Web.jpg" class="center-block fact_pict" style="max-width: 100px;">
+                        <p id="mengapa">Tidak adanya akses teknologi peternakan terbaru dan teknologi informasi bagi para peternak tersebut</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Section 1 End -->
+        <!-- Section 2 About Us-->
+        <div style="background-color: #f5f5f0" id="tentang-kami">
+            <hr class="divider" />
+            <section class="container ">
+                <div class="row row-centered " style="margin-top: 40px">
+                    <div class="col-md-3 col-centered  col-md-offset-1">
+                        <img src="assets/img/investor.png" class="center-block fact_pict" style="max-width: 120px" />
+                        <h3 class="peran">Sponsor</h3>
+                        <p class="text_hijau"> ✔ Money </p>
+                        <p class="text_merah"><br> ✘ Land <br> ✘ Time <br> ✘ Breeding Skill</p>
+                    </div>
+                    <div class="col-centered col-md-4 col-xs-offset-0">
+                        <img src="assets/img/yukternak.png" class="center-block fact_pict" style="max-width: 120px;">
+                        <h3 class="peran">Yuk Ternak</h3>
+                        <p class="text_hijau"> ✔ Breeding Technology <br> ✔ Digital Technology <br> ✔ Access to Market <br> ✔ Management <br> ✔ Education </p>
+                    </div>
+                    <div class="col-md-3 col-centered col-xs-offset-0">
+                        <img src="assets/img/peternak.png" class="center-block fact_pict" style="max-width: 120px;">
+                        <h3 class="peran">Peternak</h3>
+                        <p class="text_hijau"> ✔ Breeding Experience <br> ✔ Dedicated Time <br> ✔ Land</p>
+                        <p class="text_merah"> ✘ Market Access<br> ✘ Modern Technology <br>✘ Money</p>
+                    </div>
+                </div>
+                <p class="paragraf_segment_2">Yuk Ternak , sesuai namanya, Kami mengajak Anda untuk turut serta terjun memajukan industri peternakan Indonesia. <br> Kami akan menghubungkan Anda dengan peternak yang sudah kami bina, menyediakan teknologi modern, manajemen profesional dan akses pasar untuk penjualan. Anda akan memiliki bisnis peternakan Anda sendiri tanpa harus bersusah payah, dan peternak akan mengalami peningkatan kesejahteraan karena Anda.<br> Bersama mari kita ciptakan ekosistem peternakan modern berbasis kerakyatan. </p>
+            </section>
+        </div>
+        <!-- About Us End -->
+        <!--Keuntungan bergabung-->
+        <div style="background-color: #ffff99">
+            <section class="container vertical-center" style="padding:150px 0 120px 0;">
+                <h2 class="segment_title text-center" style="color: #ff751a;margin-top: 20px"> MENGAPA BERGABUNG DENGAN YUK TERNAK? ?</h2>
+                <div class="row" style="margin-top: 70px">
+                    <div class="col-md-4">
+                        <img src="assets/img/uang.jpg" class="center-block fact_pict" style="max-width: 100px" />
+                        <p id="mengapa">investasi yang realistis dan menguntungkan</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/img/daging.jpg" class="center-block fact_pict" style="max-width: 100px;">
+                        <p id="mengapa">Meningkatkan produksi daging nasional serta mendukung program Indonesia swasembada daging</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/img/peternak.png" class="center-block fact_pict" style="max-width: 100px;">
+                        <p id="mengapa">Meningkatkan kesejahteraan peternak lokal dan membawa dampak sosial</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--section 3 How it works -->
+        <div style="background-color:#fffffff" id="cara-kerja">
+            <section class="container" id="container-segment">
+                <h2 id="carakerja" class="segment_title"> <b>BAGAIMANA CARA KERJANYA ?</b></h2>
+                <div class="row" style="margin-top: 80px">
+                    <div class="col-md-3">
+                        <img src="assets/img/daftar.jpg" class="center-block fact_pict" style="max-width: 80px" />
+                        <h3 class="peran">Mendaftar</h3>
+                        <p class="text_hijau">  Daftarkan diri Anda dan pelajari hak, kewajiban dan ketentuan-ketentuannya. </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/img/distribusi.jpg" class="center-block fact_pict" style="max-width: 80px;">
+                        <h3 class="peran">Membeli Ternak</h3>
+                        <p class="text_hijau"> Transfer dana Anda, dana yang masuk akan segera kami konfirmasi dan distribusikan kepada peternak.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/img/laporan.jpg" class="center-block fact_pict" style="max-width: 80px;">
+                        <h3 class="peran">Mengawasi</h3>
+                        <p class="text_hijau"> Pantau perkembangan ternak Anda melalui website dan email. Dalam 6 bulan ternak siap dijual.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/img/uang.jpg" class="center-block fact_pict" style="max-width: 80px;">
+                        <h3 class="peran">Menerima</h3>
+                        <p class="text_hijau"> Waktunya panen, Anda dapat memantau laporan penjualan dan bagi hasil. Keuntungan bagi hasil akan kami transfer ke rekening Anda.</p> 
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--How it works  End-->
+        <section class="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Berapa biaya yang dibutuhkan? </h2>
+                        <p>Untuk membuat sebuah usaha peternakan modern, setidaknya dibutuhkan minimal 100 juta rupiah. Tapi,dengan bermitra dengan Yuk Ternak, hanya dengan 15 juta Anda sudah memiliki sebuah peternakan yang modern dan professional. </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row icon-features">
+                            <div class="col-xs-4 icon-feature">
+                                <i class="glyphicon glyphicon-cloud"></i>
+                                <p>Investasi nyata , realistis dan menguntungkan</p>
+                            </div>
+                            <div class="col-xs-4 icon-feature">
+                                <i class="glyphicon glyphicon-piggy-bank"></i>
+                                <p>Berpartisipasi dalam program Indonesia swasembada daging</p>
+                            </div>
+                            <div class="col-xs-4 icon-feature">
+                                <i class="glyphicon glyphicon-fire"></i>
+                                <p>Membawa dampak sosial bagi peternak-peternak lokal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Testimonials Start-->
+        <div class="carousel-reviews broun-block">
+            <div class="container">
+                <div class="row">
+                    <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
+                        <h3> APA KATA MEREKA? </h3>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="block-text rel zmin">
+                                        <p>
+                                            “YukTernak benar-benar memberikan solusi untuk orang-orang yang tidak punya waktu luang dan tidak tau cara berbisnis seperti saya. Sangat mudah dan bisa jadi passive income yang cukup menguntungkan untuk saya.”</p>
+                                        <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                                    </div>
+                                    <div class="person-text rel">
+                                        <img class="img-circle" src="assets/img/wulan.png" style="width: 80px;height: 80px">
+                                        <a title="" href="#">Wulan Fitriana</a>
+                                        <i>Pegawai Direktorat Jenderal Pajak, Sidoarjo</i>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 hidden-xs">
+                                    <div class="block-text rel zmin">
+                                        <p>“Saya tidak suka jika uang saya hanya mengendap di bank tanpa ada perputaran. Saya tertarik dengan YukTernak karena saya melihat investasi ini cukup realistis dan profitable. Selain itu dengan saya ikut berinvestasi di YukTernak, Saya bisa ikut membantu mensejahterkan peternak Indonesia.”</p>
+                                        <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                                    </div>
+                                    <div class="person-text rel">
+                                        <img class="img-circle" src="assets/img/willy.jpg" style="width: 80px;height: 80px" />
+                                        <a title="" href="#">A. William</a>
+                                        <i>Owner Petshop , Yogyakarta</i>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+                                    <div class="block-text rel zmin">
+                                        <p>"Saya tidak menyangka kalau bisa mempunyai usaha peternakan yang memberikan penghasilan yang layak bagi keluarga. Dengan bantuan Yuk Ternak saya bisa menghidupi keluarga tanpa harus merantau dan menjadi pekerja di kota.</p>
+                                        <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                                    </div>
+                                    <div class="person-text rel">
+                                        <img class="img-circle" src="assets/img/pakdon.jpg" style="width: 80px;;height: 80px" />
+                                        <a title="" href="#">Pak Dhoni</a>
+                                        <i>Peternak binaan Yuk Ternak</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carousel-reviews" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                        <a class="right carousel-control" href="#carousel-reviews" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Testimonials End-->
+        <!--Input Email to download pdf-->
+        <Section style="background-image: url(assets/img/background-hijau.jpg);background-size: cover;" id="contact-us">
+            <!--Contact Us-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                        <h2 class="text-center">Hubungi Kami</h2>
+                        <h4>Silahkan masukkan email untuk mendownload proposal dan detil-detil lainnya<br><br>Anda juga dapat mengisi form dibawah untuk berkomunikasi dengan kami , atau hubungi nomor customer service kami untuk info lebih lanjut</h4>
+                        <form>
+                            <div class="form-group"> 
+                                <!-- Name field -->
+                                <label class="control-label " for="name">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" placeholder="Nama Anda" />
+                            </div>
+                            <div class="form-group"> 
+                                <!-- Email field -->
+                                <label class="control-label requiredField" for="email">Email
+                                    <span class="asteriskField">*wajib diisi</span>
+                                </label>
+                                <input type="email" class="form-control" id="email_id" name="email_name" placeholder="name@domain.com">
+                            </div>
+                            <div class="form-group"> 
+                                <!-- Subject field -->
+                                <label class="control-label " for="subject">Subject</label>
+                                <input class="form-control" id="subject" name="subject" type="text" />
+                            </div>
+                            <div class="form-group"> 
+                                <!-- Message field -->
+                                <label class="control-label " for="message">Message</label>
+                                <textarea class="form-control" cols="40" id="message" name="message" rows="10" placeholder="Tulis pesan Anda (optional)"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>             
+        </section>
+        <!--Sign Up & download END-->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <h5>Yuk Ternak © 2016</h5>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                        <h4 class="text-left fa fa-whatsapp "> Firmansyah : (SMS/WA) 0857-4362-2149 // (BBM) 5277CCAA</h4>
+                        <h4 class="text-left fa fa-whatsapp"> Bagas : (SMS/WA) 0857-4374-3498</h4>
+                    </div>
+                    <!--<div class="col-sm-6 col-md-3 social-icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>-->
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
